@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Import the dataset
-dataset= pd.read_csv("/Users/shuvamoymondal/Desktop/Machine_Learning_A-Z_Template_Folder/Part_1_Data_Preprocessing/Data.csv")
+dataset= pd.read_csv("/Users/shuvamoymondal/Desktop/Machine_Learning_Folder/Part_1_Data_Preprocessing/Data.csv")
 
 ## get indipendent variable columms which is also called Features.Means a property of your training data.
 ##If you put .values, it will convert colum to array format
