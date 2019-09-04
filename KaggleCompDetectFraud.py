@@ -14,7 +14,7 @@ for i in data.columns:
     for label in top10:
         data[label] = np.where(data['X2']==label,1,0)
     data[['X2']+top10].head(40)
-print(mergedata.isnull().sum())
+
 
 def  one_hot_top_x(df, variable,top_x_lebels):
     for label in top10:

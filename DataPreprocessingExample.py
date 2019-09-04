@@ -8,6 +8,7 @@ sales_data = pd.read_csv("C:/Users/shumondal/Downloads/data-science-class-master
 #sales_data_cate = sales_data.select_dtypes(include=['object']).copy()
 #sales_data_Num=data._get_numeric_data()
 
+##[col for col in df.columns if df[col].isnull().sum()>0]
 #print(sales_data_Num.isnull().sum())
 #sales_data_Num = sales_data_Num.fillna(sales_data_Num['reviews_per_month'].value_counts().index[0])
 
